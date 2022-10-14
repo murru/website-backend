@@ -2,12 +2,13 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
     connection: {
-      host: env('DATABASE_HOST', '127.0.0.1'),
-      port: env.int('DATABASE_PORT', 3306),
-      database: env('DATABASE_NAME', 'website_backend'),
-      user: env('DATABASE_USERNAME', 'murru'),
-      password: env('DATABASE_PASSWORD', 'murruadmin'),
-      ssl: env.bool('DATABASE_SSL', false),
+      host: env('DATABASE_HOST'),
+      port: env.int('DATABASE_PORT'),
+      database: env('DATABASE_NAME'),
+      user: env('DATABASE_USERNAME'),
+      password: env('DATABASE_PASSWORD'),
+      ssl: env.bool('DATABASE_SSL'),
     },
+    debug: env.bool('DATABASE_DEBUG'),
   },
 });
