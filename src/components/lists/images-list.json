@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_lists_images_lists",
+  "info": {
+    "displayName": "ImagesList"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

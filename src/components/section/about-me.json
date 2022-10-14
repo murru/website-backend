@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_about_mes",
+  "info": {
+    "displayName": "AboutMe"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
